@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+:root {
+  --primary-color: #fe6f27;
+  --secondary-color: white;
+  --background-color: #2f2f2f;
+}
+header {
+  background-color: #2f2f2f;
+  padding: 5px 0px 5px 15px;
+  /* position: fixed; */
+  width: 100%;
+  border-bottom: 1px solid #fe6f27;
+}
+header button {
+  background-color: #2f2f2f;
+  border: none;
+}
+header button:hover {
+  cursor: pointer;
+}
+header span h1 {
+  margin: 0;
+}
+header span p {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header button span {
+  display: flex;
+  justify-content: center;
+}
+header button span h1:nth-last-child(1) {
+  color: #fe6f27;
+}
+header button span h1:nth-last-child(2) {
+  color: white;
+}
+header button span p:nth-last-child(1) {
+  color: #fe6f27;
+  margin-left: 1px;
+}
+header button span p:nth-last-child(2) {
+  color: white;
+  margin-right: 1px;
+}
+@media only screen and (max-width: 800px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,86 @@
+.header {
+  text-align: center;
+  background-color: #2f2f2f;
+  padding-top: 10px;
+}
+.header h2:hover {
+  color: #fe6f27;
+  cursor: pointer;
+}
+.title {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  background-color: #2f2f2f;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #2f2f2f;
+  padding-bottom: 20px;
+}
+.card-body {
+  width: 35%;
+  padding: 10px;
+}
+.card-body:hover {
+  box-shadow: 5px 5px 2px #fe6f27;
+  border-left: white 1px solid;
+  border-top: white 1px solid;
+}
+.card-content h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+.years {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.card-btn {
+  margin-bottom: 10px;
+}
+
+button {
+  --b: 3px; /* border thickness */
+  --s: 0.45em; /* size of the corner */
+  --color: white;
+  cursor: pointer;
+  padding: calc(0.5em + var(--s)) calc(0.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background: conic-gradient(
+      from 90deg at var(--b) var(--b),
+      #0000 90deg,
+      #fe6f27 0
+    )
+    var(--_p) var(--_p) / calc(100% - var(--b) - 2 * var(--_p))
+    calc(100% - var(--b) - 2 * var(--_p));
+  transition: 0.3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: 0.6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover,
+button:focus-visible {
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: 0.05em;
+}
+
+@media only screen and (max-width: 580px) {
+  .card-body {
+    width: 50%;
+  }
+}

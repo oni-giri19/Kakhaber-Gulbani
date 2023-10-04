@@ -1,0 +1,17 @@
+.go-up {
+  position: fixed;
+  z-index: 99;
+  right: 5%;
+  bottom: 10%;
+  padding: 10px 10px;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  font-size: large;
+  background-color: #2f2f2f;
+  color: white;
+}
+.go-up:hover {
+  cursor: pointer;
+  color: #fe6f27;
+}

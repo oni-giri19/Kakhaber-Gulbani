@@ -1,0 +1,46 @@
+.header {
+  text-align: center;
+  background-color: #2f2f2f;
+  padding-top: 10px;
+}
+.header h2:hover {
+  color: #fe6f27;
+  cursor: pointer;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #2f2f2f;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.card-body {
+  width: 40%;
+}
+.card-body:hover {
+  box-shadow: 5px 5px 2px #fe6f27;
+  border-left: white 1px solid;
+  border-top: white 1px solid;
+}
+.card-content {
+  padding: 20px 10px 20px 10px;
+}
+.card-content h3 {
+  padding: 8px 0;
+}
+.role {
+  width: 55%;
+  margin: 0px auto;
+  padding: 10px 0px;
+}
+.years {
+  padding: 5px 0;
+}
+hr {
+  width: auto;
+  margin: 0 auto;
+}

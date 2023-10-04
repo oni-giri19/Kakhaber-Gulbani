@@ -1,0 +1,15 @@
+.icon-container {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  background-color: #2f2f2f;
+}
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 0;
+}
