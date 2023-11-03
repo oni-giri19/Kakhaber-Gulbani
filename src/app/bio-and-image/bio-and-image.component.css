@@ -22,8 +22,8 @@ section {
 .bio p {
   color: white;
   text-align: center;
-  letter-spacing: 2px;
-  font-family: cursive;
+  letter-spacing: 4px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .router-btns {
   display: flex;
