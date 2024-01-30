@@ -42,4 +42,13 @@ export class ProjectsComponent {
       'https://github.com/oni-giri19/ng-final-project-Employee-Form-';
     window.open(githubUrl, '_blank');
   }
+  tbcxusaidLive() {
+    const netlifyUrl = 'https://tbc-x-usaid-page.netlify.app/';
+    window.open(netlifyUrl, '_blank');
+  }
+
+  tbcxusaidSource() {
+    const githubUrl = 'https://github.com/oni-giri19/TBC-x-USAID';
+    window.open(githubUrl, '_blank');
+  }
 }
